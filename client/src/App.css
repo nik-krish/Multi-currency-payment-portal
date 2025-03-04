@@ -1,0 +1,172 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
+.full-width-header {
+  background-color: #343a40; /* Dark grey for header background */
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.full-width-header .title {
+  font-size: 3em;
+  color: #ced4da;
+}
+
+.full-width-header .subtitle {
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #ced4da; /* Light grey for subtitle */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button.primary-button {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button.primary-button:hover {
+  background-color: #218838;
+}
+
+.container {
+  padding: 20px;
+}
+
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.input, .btn {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn-login {
+  background-color:  rgb(53, 53, 53);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}
+
+.btn-register {
+  background-color:  rgb(53, 53, 53);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-register:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.page-background {
+  background: linear-gradient(45deg, #6a5acd, #8a2be2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.page-background .form {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+.primary-button {
+  background-color: #333; /* Dark grey background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.primary-button:hover {
+  background-color: #555; /* Slightly lighter grey on hover */
+}
+
+/* Styles for the transactions table */
+/* Styles for the transactions table */
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transactions-table thead {
+  background-color: #333;
+  border-bottom: 2px solid #ddd;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.transactions-table th {
+  font-weight: bold;
+  color: white;
+}
+
+.transactions-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.transactions-table thead tr:hover {
+  background-color: transparent; /* Remove hover effect from the header row */
+}
+
+
+

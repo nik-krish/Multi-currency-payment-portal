@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+}
+
+.full-width-header {
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    padding: 70px 30px;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.container {
+    max-width: 420px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Slight depth effect */
+}
+
+.title, .subtitle {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.button, input[type="submit"], .link-button {
+    font-weight: 600;
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.primary-button {
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect on buttons */
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.error-message {
+    color: #d9534f;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for input fields */
+}
+
+.input[type="submit"] {
+    width: auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input[type="submit"]:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+/* Styles for the Home component */
+.full-width-header {
+    background-color: #f0f4f8;
+    padding: 60px 25px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Enhanced shadow for header */
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    color: #555;
+    margin-top: 12px;
+}
+
+.button-container {
+    margin-top: 35px;
+}
+
+.button {
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.2s;
+    text-decoration: none;
+}
+
+.primary-button {
+    background-color: #007bff;
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.primary-button:active {
+    background-color: #004491;
+}
